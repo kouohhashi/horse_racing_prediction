@@ -1,0 +1,6 @@
+node_modules/
+results/
+.ipynb_checkpoints
+__pycache__/
+.DS_Store
+

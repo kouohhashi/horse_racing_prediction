@@ -1,0 +1,25 @@
+{
+  "name": "keiba4",
+  "version": "0.0.1",
+  "description": "http://cattle.w-wind.net/edb2_manual/",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^2.5.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "mongodb": "^2.2.31",
+    "mongoskin": "^2.1.0",
+    "sqlite3": "^3.1.13"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  },
+  "scripts": {
+    "keiba": "babel-node keiba1.js",
+    "uhi": "babel-node uhi.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ko Ohashi <kouohhashi@gmail.com> (https://medium.com/@kouohhashi/)",
+  "license": "ISC"
+}
